@@ -77,9 +77,10 @@ This project demonstrates two types of neural network architectures — a Fully 
 
 ## 📁 Project Structure
 
+```
 digit-recognition/
 ├── digit_recognition.ipynb       # Jupyter notebook with both models
 ├── README.md                     # This file
 ├── requirements.txt              # Python dependencies
 └── models/                       # (Optional) Saved model weights
-
+```
