@@ -1,8 +1,10 @@
-#  Handwritten Digit Recognition using Deep Learning
+# 🧠 Handwritten Digit Recognition using Deep Learning
 
-This project demonstrates the use of two types of neural network architectures — a Fully Connected Neural Network and a Convolutional Neural Network (CNN) — to classify handwritten digits from the MNIST dataset using **TensorFlow/Keras**.
+This project demonstrates two types of neural network architectures — a Fully Connected Neural Network and a Convolutional Neural Network (CNN) — to classify handwritten digits from the MNIST dataset using **TensorFlow/Keras**.
 
-##  Project Overview
+---
+
+## 📂 Project Overview
 
 - **Dataset**: MNIST (70,000 images of handwritten digits, 28×28 grayscale)
 - **Models Used**:
@@ -13,45 +15,70 @@ This project demonstrates the use of two types of neural network architectures �
 
 ---
 
-##  Model Architectures
+## 🚀 Model Architectures
 
-###  1. Fully Connected Neural Network
+### 🔷 1. Fully Connected Neural Network
 
-| Layer      | Type      | Units | Activation |
-|------------|-----------|-------|------------|
-| Flatten    | Input     | -     | -          |
-| Dense      | Hidden    | 128   | ReLU       |
-| Dense      | Output    | 10    | Softmax    |
-
-- **Optimizer**: Adam  
-- **Loss**: Categorical Crossentropy  
-- **Epochs**: 5  
-- **Accuracy Achieved**: ~97.4% on test data  
-
----
-
-###  2. Convolutional Neural Network (CNN)
-
-| Layer      | Type        | Filters | Kernel Size | Activation |
-|------------|-------------|---------|-------------|------------|
-| Conv2D     | Convolution | 32      | (3×3)       | ReLU       |
-| MaxPooling | Pooling     | (2×2)   |             |            |
-| Flatten    |             |         |             |            |
-| Dense      | Hidden      | 64      |             | ReLU       |
-| Dense      | Output      | 10      |             | Softmax    |
+| Layer   | Type    | Units | Activation |
+|---------|---------|-------|------------|
+| Input   | Flatten | -     | -          |
+| Hidden  | Dense   | 128   | ReLU       |
+| Output  | Dense   | 10    | Softmax    |
 
 - **Optimizer**: Adam  
 - **Loss**: Categorical Crossentropy  
 - **Epochs**: 5  
-- **Accuracy Achieved**: ~98.4% on test data  
+- **Accuracy Achieved**: ~97.4%
 
 ---
 
-##  Performance Comparison
+### 🔶 2. Convolutional Neural Network (CNN)
+
+| Layer       | Type        | Filters | Kernel Size | Activation |
+|-------------|-------------|---------|-------------|------------|
+| Conv2D      | Convolution | 32      | 3×3         | ReLU       |
+| MaxPooling2D| Pooling     | 2×2     |             |            |
+| Flatten     |             |         |             |            |
+| Dense       | Hidden      | 64      |             | ReLU       |
+| Dense       | Output      | 10      |             | Softmax    |
+
+- **Optimizer**: Adam  
+- **Loss**: Categorical Crossentropy  
+- **Epochs**: 5  
+- **Accuracy Achieved**: ~98.4%
+
+---
+
+## 📊 Performance Comparison
 
 | Model | Test Accuracy |
 |-------|---------------|
 | Dense | 97.4%         |
 | CNN   | 98.4%         |
 
-CNN outperforms the dense model, especially in handling spatial patterns in images due to convolutional lay
+---
+
+## 📌 Why These Parameters?
+
+- **ReLU**: Non-linear activation; avoids vanishing gradients.
+- **Softmax**: Ideal for multi-class classification.
+- **Adam**: Adaptive optimizer that combines RMSProp and momentum.
+- **3×3 kernels**: Standard for capturing spatial features.
+- **128 / 64 units**: Balance between performance and overfitting.
+
+---
+
+## 🔍 Results Visualization
+
+- Misclassified digit samples shown using matplotlib
+- Optionally use confusion matrix (with `seaborn`) for deeper evaluation
+
+---
+
+## 📁 Project Structure
+
+digit-recognition/
+├── digit_recognition.ipynb # Jupyter notebook with both models
+├── README.md # This file
+├── requirements.txt # Python dependencies
+└── models/ # (Optional) Saved model weights
