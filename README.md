@@ -71,7 +71,7 @@ This project demonstrates two types of neural network architectures — a Fully 
 ## 🔍 Results Visualization
 
 - Misclassified digit samples shown using matplotlib
-- Optionally use confusion matrix (with `seaborn`) for deeper evaluation
+- Used confusion matrix (with `seaborn`) for deeper evaluation
 
 ---
 
