@@ -2,7 +2,7 @@ A deep learning project comparing dense and convolutional networks for handwritt
 
 # 🧠 Handwritten Digit Recognition using Deep Learning
 
-This project demonstrates two types of neural network architectures — a Fully Connected Neural Network and a Convolutional Neural Network (CNN) — to classify handwritten digits from the MNIST dataset using **TensorFlow/Keras**.
+This project compares two neural network architectures — a fully connected (dense) network and a convolutional neural network (CNN) — to classify handwritten digits from the MNIST dataset using TensorFlow and Keras. It evaluates their performance, visualizes errors, and interprets model predictions.
 
 ---
 
@@ -14,6 +14,14 @@ This project demonstrates two types of neural network architectures — a Fully 
   - Convolutional Neural Network (CNN)
 - **Framework**: TensorFlow/Keras
 - **Tools**: Jupyter Notebook, NumPy, Matplotlib, Seaborn
+
+---
+
+## 🧰 Skills Demonstrated
+- Building deep learning models with TensorFlow/Keras
+- Image preprocessing and reshaping for CNNs
+- Performance comparison using accuracy and confusion matrix
+- Visualizing misclassifications and prediction confidence
 
 ---
 
@@ -82,5 +90,13 @@ This project demonstrates two types of neural network architectures — a Fully 
 ```
 digit-recognition/
 ├── digit_recognition.ipynb       # Jupyter notebook with both models
+├── requirements.txt     
 └── README.md                     # This file
 ```
+---
+
+## 🚀 Future Improvements
+- Add dropout and batch normalization to improve generalization
+- Experiment with different optimizers and learning rates
+- Deploy the model using Streamlit or Flask as a web app
+- Try transfer learning with pretrained models
