@@ -6,7 +6,7 @@ This project demonstrates two types of neural network architectures — a Fully 
 
 ---
 
-## 📂 Project Overview
+## 📂 Dataset and Tools
 
 - **Dataset**: MNIST (70,000 images of handwritten digits, 28×28 grayscale)
 - **Models Used**:
