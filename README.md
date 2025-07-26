@@ -1,8 +1,6 @@
-A deep learning project comparing dense and convolutional networks for handwritten digit recognition using TensorFlow and the MNIST dataset.
-
 # 🧠 Handwritten Digit Recognition using Deep Learning
 
-This project compares two neural network architectures — a fully connected (dense) network and a convolutional neural network (CNN) — to classify handwritten digits from the MNIST dataset using TensorFlow and Keras. It evaluates their performance, visualizes errors, and interprets model predictions.
+_A deep learning project comparing dense and convolutional networks for handwritten digit recognition using TensorFlow and the MNIST dataset._
 
 ---
 
