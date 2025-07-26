@@ -86,7 +86,7 @@ _A deep learning project comparing dense and convolutional networks for handwrit
 ## 📁 Project Structure
 
 ```
-digit-recognition/
+mnist-digit-recognition-cnn-tensorflow/
 ├── digit_recognition.ipynb       # Jupyter notebook with both models
 ├── requirements.txt     
 └── README.md                     # This file
