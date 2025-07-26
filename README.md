@@ -98,3 +98,10 @@ mnist-digit-recognition-cnn-tensorflow/
 - Experiment with different optimizers and learning rates
 - Deploy the model using Streamlit or Flask as a web app
 - Try transfer learning with pretrained models
+
+ ---
+
+## 📚 Inspiration
+
+This project was inspired by the *Advanced Learning Algorithms* course from the [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) by DeepLearning.AI on Coursera.
+
